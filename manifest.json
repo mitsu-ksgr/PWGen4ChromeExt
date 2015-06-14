@@ -1,0 +1,18 @@
+{
+    "name": "The Password Generator",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "The Password generator",
+
+    "icons": {
+        "16": "./icons/icon16.png",
+        "48": "./icons/icon48.png",
+        "128": "./icons/icon128.png"
+    },
+
+    "browser_action": {
+        "default_title": "The Password Generator",
+        "default_icon": "./icons/icon19.png",
+        "default_popup": "./pages/popup.html"
+    }
+}

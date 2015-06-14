@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+</head>
+<body style="min-width:200px">
+    <h2>Options</h2>
+    <p>
+        <b>Use Characters:</b><br>
+        <input type="checkbox" id="use_number"> "0 ~ 9"
+        <input type="checkbox" id="use_uppercase"> "A ~ Z"
+        <input type="checkbox" id="use_lowercase"> "a ~ z"
+        <br>
+        <input type="checkbox" id="use_underscore"> "_"
+        <input type="checkbox" id="use_space"> "SPACE"
+    </p>
+    <p>
+        <b>Digits: </b>
+        <input type="number" id="passwd_digits"
+                min="1" max="1024" style="text-align:right;" required>
+    </p>
+
+    <button id="generate">GENERATE</button>
+
+    <h2>Password</h2>
+    <p id="result" style="
+            margin-top : 0.25em;
+            margin-bottom : 0.25em;
+            font-size: large;
+            background-color : #E0F8E0;
+            "></p>
+
+    <script src="passwd_generator.js"></script>
+</body>
+</html>
