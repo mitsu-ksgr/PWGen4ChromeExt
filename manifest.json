@@ -13,6 +13,8 @@
     "browser_action": {
         "default_title": "The Password Generator",
         "default_icon": "./icons/icon19.png",
-        "default_popup": "./pages/popup.html"
-    }
+        "default_popup": "./views/popup.html"
+    },
+
+    "options_page": "./views/options.html"
 }
